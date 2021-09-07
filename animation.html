@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation</title>
+    <style>
+        P {
+            width: 150PX;
+            height: 180PX;
+            background-color: darkmagenta;
+            animation-name: TEST;
+            animation-duration: 5s;
+        }
+
+        @keyframes TEST {
+            0% {
+                background-color: darkmagenta;
+                left: 0px;
+                top: 0px;
+            }
+
+            25% {
+                background-color: rgb(161, 161, 148);
+                left: 200px;
+                top: 0px;
+            }
+
+            50% {
+                background-color: rgb(32, 128, 69);
+                left: 200px;
+                top: 200px;
+            }
+
+            75% {
+                background-color: rgb(116, 10, 93);
+                left: 0px;
+                top: 200px;
+            }
+
+            100% {
+                background-color: rgb(143, 19, 19);
+                left: 0px;
+                top: 0px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit.</p>
+
+</body>
+
+</html>
